@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Cue",
+    "slug": "cue",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./public/core/icon.png",
+    "scheme": "cue",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "public/core/splash-icon.png",
+      "backgroundColor": "#ffffff",
+      "dark": {
+        "image": "public/core/splash-icon-dark.png",
+        "backgroundColor": "#222222"
+      }
+    },
+    "assetBundlePatterns": ["**/*"],
+    "platforms": ["ios", "android"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Karume-lab.seiyuu"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "public/core/adaptive-icon.png"
+      },
+      "package": "com.Karume_lab.seiyuu"
+    },
+    "plugins": ["expo-router", "expo-asset"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
