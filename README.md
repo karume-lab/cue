@@ -2,4 +2,6 @@
 
 App for movies
 
-![Thanos GIF](thanos.gif)
+<div align="center">
+  <img src="thanos.gif" alt="Thanos GIF">
+</div>
